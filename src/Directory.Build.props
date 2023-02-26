@@ -1,0 +1,27 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>11.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Product />
+        <SourceRevisionId>$([System.DateTime]::UtcNow.ToString("yyyyMMddHHmmss"))</SourceRevisionId>
+        <Copyright>© $([System.DateTime]::UtcNow.ToString("yyyy")) Peyman.R</Copyright>
+        <Authors><![CDATA[Peyman Ranjbar <peymanpn@yahoo.com>]]></Authors>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Package Info files">
+        <Title>Pdsr.RedisQueue</Title>
+        <Version>1.0.1</Version>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>pdsr-logo-128.png</PackageIcon>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/Peymanpn/Pdsr.RedisQueue</RepositoryUrl>
+    </PropertyGroup>
+
+</Project>
